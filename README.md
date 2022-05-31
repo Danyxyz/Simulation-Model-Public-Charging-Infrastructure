@@ -11,4 +11,5 @@ Einlesen eines Subsets der Datenmenge, Kmean - Algorithmus mit der Idee Cluster 
 
 
 
-
+Example: 10 Clusters (Centroids)
+![image](https://user-images.githubusercontent.com/48012791/171167381-1e2ae3c7-f6e0-4313-90e9-dfecc0110c35.png)
