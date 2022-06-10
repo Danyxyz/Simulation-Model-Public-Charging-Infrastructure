@@ -35,7 +35,7 @@ np_array = df_coordinates.to_numpy()
 k = 10
 kmeans = KMeans(n_clusters=k, random_state=0).fit(np_array)
 
-# what are labels ?
+#Set the labels
 labels = kmeans.labels_
 centroids = kmeans.cluster_centers_
 
@@ -43,6 +43,7 @@ centroids = kmeans.cluster_centers_
 centroids_x = centroids[:,0]
 centroids_y = centroids[:,1]
 
+#basic formatting
 print("Data volume = "+str(df.count()))
 print("Number of Cluster = "+str(k))
 print("Clustercentroids = "+str(centroids))
